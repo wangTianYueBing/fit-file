@@ -1,0 +1,118 @@
+{
+  'name': 'record',
+  'fields': [
+    {
+      'name': 'timestamp',
+      'def_num': 253,
+      'base_type': 'uint32',
+      'type': 'date_time',
+      'units': None,
+      'value': datetime.datetime(2023,
+      3,
+      11,
+      9,
+      49,
+      19),
+      'raw_value': 1047462559
+    },
+    {
+      'name': 'enhanced_speed',
+      'def_num': 73,
+      'base_type': 'uint32',
+      'type': 'uint32',
+      'units': 'm/s',
+      'value': 4.222,
+      'raw_value': 4.222
+    },
+    {
+      'name': 'speed',
+      'def_num': 6,
+      'base_type': 'uint16',
+      'type': 'uint16',
+      'units': 'm/s',
+      'value': 4.222,
+      'raw_value': 4222
+    },
+    {
+      'name': 'cadence',
+      'def_num': 4,
+      'base_type': 'uint8',
+      'type': 'uint8',
+      'units': 'rpm',
+      'value': 54,
+      'raw_value': 54
+    },
+    {
+      'name': 'temperature',
+      'def_num': 13,
+      'base_type': 'sint8',
+      'type': 'sint8',
+      'units': 'C',
+      'value': 12,
+      'raw_value': 12
+    },
+    {
+      'name': 'distance',
+      'def_num': 5,
+      'base_type': 'uint32',
+      'type': 'uint32',
+      'units': 'm',
+      'value': 28577.4,
+      'raw_value': 2857740
+    },
+    {
+      'name': 'grade',
+      'def_num': 9,
+      'base_type': 'sint16',
+      'type': 'sint16',
+      'units': '%',
+      'value': 1.1,
+      'raw_value': 110
+    },
+    {
+      'name': 'enhanced_altitude',
+      'def_num': 78,
+      'base_type': 'uint32',
+      'type': 'uint32',
+      'units': 'm',
+      'value': 55.799999999999955,
+      'raw_value': 55.799999999999955
+    },
+    {
+      'name': 'altitude',
+      'def_num': 2,
+      'base_type': 'uint16',
+      'type': 'uint16',
+      'units': 'm',
+      'value': 55.799999999999955,
+      'raw_value': 2779
+    },
+    {
+      'name': 'position_lat',
+      'def_num': 0,
+      'base_type': 'sint32',
+      'type': 'sint32',
+      'units': 'semicircles',
+      'value': 475429138,
+      'raw_value': 475429138
+    },
+    {
+      'name': 'position_long',
+      'def_num': 1,
+      'base_type': 'sint32',
+      'type': 'sint32',
+      'units': 'semicircles',
+      'value': 1387748195,
+      'raw_value': 1387748195
+    },
+    {
+      'name': 'power',
+      'def_num': 7,
+      'base_type': 'uint16',
+      'type': 'uint16',
+      'units': 'watts',
+      'value': 106,
+      'raw_value': 106
+    }
+  ]
+}
